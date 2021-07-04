@@ -1,0 +1,13 @@
+server:
+  port: 5050
+
+spring:
+  application:
+    name: patient-service
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"

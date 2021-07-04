@@ -1,0 +1,10 @@
+server:
+  port: 1010
+  
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/santoshlahane/spring-config-server.git
